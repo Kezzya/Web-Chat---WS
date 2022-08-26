@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  color: #1d1d1d;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+  font-size: 16px;
+}
+
+.form-registration {
+  width: 30vw;
+  background-color: #f7ebe8;
+  border: 1px solid #8686864b;
+  border-radius: 5%;
+  flex-direction: column;
+  margin: 20vh auto 0;
+  padding-bottom: 5vh;
+  display: flex;
+  box-shadow: 1px 1px #414141;
+}
+
+.title-form {
+  text-align: center;
+  padding: 5%;
+  font-size: 1.5em;
+}
+
+.input-form {
+  width: 100%;
+  background-color: #f7ebe8;
+  border: hidden;
+  border-bottom: 1px solid #444140;
+  padding: 0 0 0 5%;
+  font-size: 1.5em;
+}
+
+.input-form:focus {
+  outline: none;
+}
+
+.enter {
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  box-shadow: black 22px solid;
+  background-color: #1e1e24;
+  border-color: #f7ebe8;
+  border-radius: 15%;
+  margin: auto;
+  padding: 3%;
+  font-size: 1.5em;
+}
+
+.enter:hover {
+  font-size: 1.6em;
+}
+
+.account-is-exist {
+  text-align: center;
+  color: #e54b4b;
+  cursor: pointer;
+  margin-top: 5px;
+  font-size: 1.3em;
+}
+
+.account-is-exist:hover {
+  font-size: 1.4em;
+}
+
+.chat-list {
+  height: 100vh;
+  width: 30vw;
+  background-color: #f7ebe8;
+  font-size: 1.5em;
+}
+
+.font-size {
+  font-size: 1.4em;
+}
+
+.padding {
+  padding: 5px;
+}
+
+.search {
+  text-align: center;
+  width: 100%;
+  background-color: #dadada8e;
+  border: none;
+  padding: 5px;
+  font-size: 1.5em;
+}
+
+.search:focus {
+  outline: none;
+}
+
+.choose-chat {
+  text-align: center;
+  margin: auto;
+  font-size: 1.5em;
+}
+
+@media (max-width: 650px) {
+  .form-registration {
+    width: 60vw;
+    font-size: 1em;
+  }
+
+  .title-form, .input-form, .enter {
+    font-size: 1em;
+  }
+
+  .enter:hover {
+    font-size: 1.3em;
+  }
+
+  .account-is-exist {
+    font-size: 1em;
+  }
+
+  .account-is-exist:hover {
+    font-size: 1.3em;
+  }
+
+  .font-size, .search, .choose-chat {
+    font-size: 1em;
+  }
+
+  .chat-list {
+    width: 60vw;
+  }
+}
+
+/*# sourceMappingURL=registration.d3147cea.css.map */
